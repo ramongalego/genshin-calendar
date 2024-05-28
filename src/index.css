@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0d192b;
+}
+
+/* FullCalendar Styling */
+.fc th,
+.fc td {
+  border-style: none;
+}
+
+.fc td {
+  border-right: 2px solid #0d192b;
+}
+
+.fc .fc-scrollgrid {
+  border: none;
+  background-color: #192739;
+}
+
+.fc-col-header {
+  border-bottom: 2px solid #0d192b;
+  border-right: 2px solid red;
+}
+
+.fc .fc-button.fc-today-button,
+.fc .fc-button.fc-prev-button,
+.fc .fc-button.fc-next-button {
+  background: #192739;
+  border: none;
+}
+
+.fc .fc-day-today {
+  background: #926d45;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background: #192739;
+}
